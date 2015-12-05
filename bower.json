@@ -1,0 +1,14 @@
+{
+  "name": "onemagicbuttons",
+  "description": "",
+  "main": "app.js",
+  "authors": [
+    "Michael Chen <miketychen@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/PomCo/100DaysOfMagicButtons",
+  "moduleType": [],
+  "dependencies": {
+    "bootstrap": "latest"
+  }
+}
