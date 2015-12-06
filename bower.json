@@ -9,6 +9,7 @@
   "homepage": "https://github.com/PomCo/100DaysOfMagicButtons",
   "moduleType": [],
   "dependencies": {
-    "bootstrap": "3.3.6"
+    "susy": "~2.2.7",
+    "breakpoint": "~4.6.4"
   }
 }

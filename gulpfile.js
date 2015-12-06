@@ -26,9 +26,10 @@ gulp.task('sass', function() {
         .pipe(sass())
         .on('error',sass.logError)
         .pipe(autoprefixer('last 2 version'))
+        .pipe(gulp.dest('public/css'))
         .pipe(rename({suffix: '.min'}))
         .pipe(minifycss()) 
-        .pipe(gulp.dest('public/css'));;
+        .pipe(gulp.dest('public/css'));
 });
 
 // Compile Our Sass
