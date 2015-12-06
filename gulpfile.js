@@ -44,9 +44,13 @@ gulp.task('ejs', function() {
 
 //BrowserSync
 gulp.task('browser-sync', function() {
-    browserSync.init(['./public/views/**.*', './public/css/**.*'], {
+    browserSync.init(["../css/*.css", "../js/*.js"],{
         server: {
-        baseDir: "./public/views"
+            baseDir: "./public",            
+            index: "views/index.html",
+            routes: {
+                "/boo": "views/index.html"
+            }
         }
     });
 });
