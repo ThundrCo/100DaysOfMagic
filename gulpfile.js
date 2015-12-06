@@ -11,6 +11,8 @@ var autoprefixer = require('gulp-autoprefixer');
 var minifycss = require('gulp-minify-css');
 var rename = require('gulp-rename');
 var ejs = require('gulp-ejs');
+var browserSync = require('browser-sync');
+var reload = browserSync.reload;
 
 var paths = {
     sass:['./app/scss/*.scss'],
@@ -32,7 +34,7 @@ gulp.task('sass', function() {
         .pipe(gulp.dest('public/css'));
 });
 
-// Compile Our Sass
+// Compile Our EJS
 gulp.task('ejs', function() {
     return gulp.src(paths.ejs)
         .pipe(ejs({msg:"Gulping EJS"}))
@@ -40,12 +42,21 @@ gulp.task('ejs', function() {
         .pipe(gulp.dest('public/views'));
 });
 
+//BrowserSync
+gulp.task('browser-sync', function() {
+    browserSync.init(['./public/views/**.*', './public/css/**.*'], {
+        server: {
+        baseDir: "./public/views"
+        }
+    });
+});
 
 // Watch Files For Changes
 gulp.task('watch', function() {
-    gulp.watch([paths.sass,paths.sass1], ['sass']);
-    gulp.watch([paths.ejs,paths.ejs1], ['ejs']);
+    gulp.watch([paths.sass,paths.sass1], ['sass',reload]);
+    gulp.watch([paths.ejs,paths.ejs1], ['ejs',reload]);
 });
 
+
 // Default Task
-gulp.task('default', ['sass', 'ejs', 'watch']);
+gulp.task('default', ['sass', 'ejs', 'watch','browser-sync']);
