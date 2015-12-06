@@ -47,10 +47,7 @@ gulp.task('browser-sync', function() {
     browserSync.init(["../css/*.css", "../js/*.js"],{
         server: {
             baseDir: "./public",            
-            index: "views/index.html",
-            routes: {
-                "/boo": "views/index.html"
-            }
+            index: "views/index.html"
         }
     });
 });
