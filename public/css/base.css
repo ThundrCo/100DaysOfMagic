@@ -29,7 +29,8 @@ body {
   cursor: default;
   color: #000 !important;
   width: 100%;
-  left: 0; }
+  left: 0;
+  top: 0; }
 
 .nav-img-box {
   margin-left: 28px;
@@ -49,11 +50,11 @@ body {
   color: #9CA2AB; }
 
 .nav-active {
-  color: #F15649 !important;
+  color: #0068FC !important;
   cursor: default; }
 
 .nav-link:hover {
-  color: #F15649 !important; }
+  color: #0068FC !important; }
 
 .about-box {
   width: 65%;
@@ -61,7 +62,7 @@ body {
   .about-box h4 {
     margin-top: 30px; }
   .about-box .link-txt {
-    color: #F15649; }
+    color: #0068FC; }
   .about-box .social-box {
     margin-top: 100px;
     width: 100%;
@@ -71,7 +72,7 @@ body {
     text-decoration: none; }
   .about-box .glyph-icon {
     margin: 10px;
-    color: #F15649; }
+    color: #0068FC; }
 
 .sub-box {
   width: 60%;
@@ -89,10 +90,10 @@ body {
     margin-top: 30px;
     color: #000;
     background-color: #FCFDFD;
-    border: 1px solid #F15649; }
+    border: 1px solid #0068FC; }
   .sub-box .submit:hover {
     color: #FCFDFD;
-    background-color: #F15649; }
+    background-color: #0068FC; }
 
 .windows-box {
   margin-top: 50px;
