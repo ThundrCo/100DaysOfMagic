@@ -1,7 +1,7 @@
-.vollkorn, .navbar-brand, .nav-link {
+.vollkorn, .navbar-brand, .nav-link, .sub-box .submit {
   font-family: 'Vollkorn', serif; }
 
-.montserrat, .about-box h4 {
+.montserrat, .about-box h4, .sub-box h4, .sub-box input {
   font-family: 'Montserrat', sans-serif; }
 
 body {
@@ -69,3 +69,24 @@ body {
   .about-box .glyph-icon {
     margin: 10px;
     color: #F15649; }
+
+.sub-box {
+  width: 60%;
+  margin: 150px auto 0 auto; }
+  .sub-box h4 {
+    margin-top: 30px; }
+  .sub-box .form {
+    margin-top: 30px;
+    text-align: center; }
+  .sub-box input {
+    height: 40px;
+    border: 1px solid #000; }
+  .sub-box .submit {
+    padding-top: 10px;
+    margin-top: 30px;
+    color: #000;
+    background-color: #FCFDFD;
+    border: 1px solid #F15649; }
+  .sub-box .submit:hover {
+    color: #FCFDFD;
+    background-color: #F15649; }
