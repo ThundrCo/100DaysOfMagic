@@ -1,16 +1,27 @@
-$( document ).ready(function() {
-	console.log('hi');
-	var top = $('#day-2').position().top-100;
-	console.log($('#day-2').position().top);
-	$(window).scroll(function() {
-		var scrollTop = $(window).scrollTop();
-		if(scrollTop >=top){
-			console.log("GREATER");
-			$("#day-tracker").text('DAY 002');
-		}else{			
-			$("#day-tracker").text('DAY 001');
-		}
+$( window ).load(function() {
+	var numDays = 4;
+	var positions = [];
+	var scrollTop = $(window).scrollTop();
+	for(var x =1; x<=numDays;x++){
+		var top = $('#day-'+x).position().top-100;
+		changeDays(scrollTop,top,x-1);
+		positions.push(top);
+	}
 
-		console.log(scrollTop);
+	$(window).scroll(function() {
+		scrollTop = $(window).scrollTop();
+		$.each(positions, function( index, value ) {
+			changeDays(scrollTop,value,index);
+		});
 	});
+	function changeDays(scrollTop,value,index){		
+		if (scrollTop>=value){
+				day = pad((index+1),3);
+				$("#day-tracker").text('DAY '+day);
+		}
+	};
+	function pad (str, max) {
+		str = str.toString();
+		return str.length < max ? pad("0" + str, max) : str;
+	}
 });
