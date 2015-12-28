@@ -42,6 +42,14 @@ gulp.task('ejs', function() {
         .pipe(gulp.dest('public/'));
 });
 
+//Compile JS files
+gulp.task('js', function() {
+  return gulp.src(paths.js)
+    .pipe(jshint.reporter('default'))
+    .pipe(gulp.dest('./public/js'));
+});
+
+
 //BrowserSync
 gulp.task('browser-sync', function() {
     browserSync.init(["../css/*.css", "../js/*.js"],{
@@ -56,8 +64,9 @@ gulp.task('browser-sync', function() {
 gulp.task('watch', function() {
     gulp.watch([paths.sassInput], ['sass',reload]);
     gulp.watch([paths.ejsInput], ['ejs',reload]);
+    gulp.watch([paths.js], ['js',reload]);
 });
 
 
 // Default Task
-gulp.task('default', ['sass', 'ejs', 'watch','browser-sync']);
+gulp.task('default', ['sass', 'ejs', 'js', 'watch','browser-sync']);

@@ -1,0 +1,16 @@
+.windows-box{
+	margin-top:$navbar-height;
+	width:100%;
+	.day-box{
+		position:fixed;
+		margin: 50px 50px 50px 50px;
+		padding:5px 10px 3px 10px;
+		background-color: $d-white;
+		.day-txt{
+			@extend .vollkorn;
+		}
+	}
+	.day-img{
+		width:100%;
+	}
+}

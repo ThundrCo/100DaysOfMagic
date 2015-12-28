@@ -6,6 +6,9 @@
 	border:none;
 	background-color: $lt-gray;
 }
+.navbar-default{
+	margin-bottom:0px;
+}
 .navbar-brand{
 	@extend .vollkorn;
     position: absolute;
