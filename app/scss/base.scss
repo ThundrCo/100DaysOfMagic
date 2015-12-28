@@ -16,53 +16,6 @@ $navbar-height:50px;
 body{
 	background-color: $d-white;
 }
-.navbar-collapse{
-	padding:0;
-}
-.navbar{
-	border-radius: 0;
-	border:none;
-	background-color: $lt-gray;
-}
-.navbar-brand{
-	@extend .vollkorn;
-    position: absolute;
-	cursor:default;
-    text-align: center;
-    margin: auto;
-    width: 100%;
-    left: 0;
-	font-size: 16px;
-	cursor:default;
-	color:$black!important;
-    width: 100%;
-    left: 0;
-}
-.nav-img-box{
-	margin-left:28px;
-	height:$navbar-height;
-	text-align: left;
-}
-.nav-img{
-	margin:8px 0;
-	padding:0;
-	height:34px;
-	text-align: left;
-}
-.navbar-right{
-	margin-right: 18px;
-}
-.nav-link{
-	@extend .vollkorn;
-	color:$gray;
-}
-.nav-link:hover{
-	color:$red!important;
-}
 
-.about-box{
-	width:80%;
-	height:200px;
-	background-color: $red;
-	margin-top:200px;
-}
+@import 'partials/_nav.scss';
+@import 'partials/_about.scss';

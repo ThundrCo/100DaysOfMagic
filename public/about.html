@@ -8,7 +8,25 @@
         <link href="../assets/fonts/flaticon.css" rel="stylesheet" type="text/css">
     </head>
     <body>
-    	<% include partials/_aboutnav.ejs %>
+    	<nav class="navbar navbar-default" role="navigation">
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>    
+  </div>
+  <a class="navbar-brand brand-txt" href="/">100 DAYS OF WINDOWS</a>
+  <div class="navbar-collapse collapse">
+    <ul class="nav navbar-nav navbar-left">
+        <li class="nav-img-box"><img class="nav-img" src="../assets/images/window.png"></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a class="nav-link" href="/subscribe.html">SUBSCRIBE</a></li>
+      <li><a class="nav-link nav-active" href="#">ABOUT</a></li>
+    </ul>
+  </div>
+</nav>
         <div class="about-box">
             <div class="row">
                 <div class="col-md-12">
@@ -24,6 +42,6 @@
                 <a href="http://www.pinterest.com/stellalee" target="_blank"><span class="glyph-icon flaticon-pinterest27"></span></a>
             </div>
         </div>
-    	<% include partials/_js.ejs %>
+    	
     </body>
 </html>

@@ -16,6 +16,7 @@ var reload = browserSync.reload;
 
 var paths = {
     sass:['./app/scss/**/*.scss','!./app/scss/**/_*.scss'],
+    sassInput:['./app/scss/**/*.scss'],
     ejs:['./app/views/**/*.ejs','!./app/views/**/_*.ejs'],
     ejsInput:['./app/views/**/*.ejs'],
     js:['./app/js/**/*.js','!./app/js/**/_*.js']
@@ -38,22 +39,22 @@ gulp.task('ejs', function() {
     return gulp.src(paths.ejs)
         .pipe(ejs({msg:"Gulping EJS"}))
         .on('error',gutil.log)
-        .pipe(gulp.dest('public/views'));
+        .pipe(gulp.dest('public/'));
 });
 
 //BrowserSync
 gulp.task('browser-sync', function() {
     browserSync.init(["../css/*.css", "../js/*.js"],{
         server: {
-            baseDir: "./public",            
-            index: "views/index.html"
-        }
+            baseDir: "./public"
+        },
+        port: 3000
     });
 });
 
 // Watch Files For Changes
 gulp.task('watch', function() {
-    gulp.watch([paths.sass], ['sass',reload]);
+    gulp.watch([paths.sassInput], ['sass',reload]);
     gulp.watch([paths.ejsInput], ['ejs',reload]);
 });
 
