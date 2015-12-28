@@ -1,5 +1,5 @@
 {
-  "name": "onemagicbuttons",
+  "name": "onemagic",
   "description": "",
   "main": "app.js",
   "authors": [
@@ -9,7 +9,6 @@
   "homepage": "https://github.com/PomCo/100DaysOfMagicButtons",
   "moduleType": [],
   "dependencies": {
-    "susy": "~2.2.7",
-    "breakpoint": "~4.6.4"
+    "bootstrap": "~3.3.6"
   }
 }

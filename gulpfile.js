@@ -15,11 +15,9 @@ var browserSync = require('browser-sync');
 var reload = browserSync.reload;
 
 var paths = {
-    sass:['./app/scss/*.scss'],
-    sass1:['./app/scss/partials/*.scss'],
-    ejs:['./app/views/*.ejs'],
-    ejs1:['./app/views/**/*.ejs'],
-    js:['./app/js/*.js']
+    sass:['./app/scss/**/*.scss','!./app/scss/**/_*.scss'],
+    ejs:['./app/views/**/*.ejs','!./app/views/**/_*.ejs'],
+    js:['./app/js/**/*.js','!./app/js/**/_*.js']
 }
 
 // Compile Our Sass
@@ -54,8 +52,8 @@ gulp.task('browser-sync', function() {
 
 // Watch Files For Changes
 gulp.task('watch', function() {
-    gulp.watch([paths.sass,paths.sass1], ['sass',reload]);
-    gulp.watch([paths.ejs,paths.ejs1], ['ejs',reload]);
+    gulp.watch([paths.sass], ['sass',reload]);
+    gulp.watch([paths.ejs], ['ejs',reload]);
 });
 
 
