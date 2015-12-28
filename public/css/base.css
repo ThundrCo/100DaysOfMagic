@@ -1,63 +1,55 @@
-@media (min-width: 0) {
-  body::before {
-    content: '{ "current" : "small", "all" : [small ], "position" : 0 }';
-    display: none; } }
+.vollkorn, .navbar-brand, .nav-link {
+  font-family: 'Vollkorn', serif; }
 
-/*! Grid based on https://github.com/necolas/griddle by Nicolas Gallagher (@necolas) */
+.montserrat {
+  font-family: 'Montserrat', sans-serif; }
+
 body {
-  font-size: 1em; }
+  background-color: #FCFDFD; }
 
-.wrapper {
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 1.25em;
-  padding-right: 1.25em; }
+.navbar-collapse {
+  padding: 0; }
 
-img {
-  max-width: 100%; }
+.navbar {
+  border-radius: 0;
+  border: none;
+  background-color: #EEEFF1; }
 
-.no-js .responsive-image {
-  display: none; }
-
-.grid {
-  display: block;
-  padding: 0;
-  margin: 0 -0.625em;
-  text-align: left;
-  letter-spacing: -0.31em;
-  text-rendering: optimizespeed; }
-
-.opera:-o-prefocus,
-.grid {
-  word-spacing: -0.43em; }
-
-.grid > .grid {
-  overflow: hidden;
-  margin-right: 0;
-  margin-left: 0; }
-
-.grid__cell {
+.navbar-brand {
+  position: absolute;
+  cursor: default;
+  text-align: center;
+  margin: auto;
   width: 100%;
-  display: -moz-inline-stack;
-  display: inline-block;
-  *vertical-align: auto;
-  zoom: 1;
-  *display: inline;
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0 0.625em;
-  /* controls vertical positioning of units */
-  vertical-align: top;
-  /* keeps unit content correctly aligned */
-  text-align: left;
-  /* reset text defaults */
-  letter-spacing: normal;
-  word-spacing: normal;
-  text-rendering: auto; }
+  left: 0;
+  font-size: 16px;
+  cursor: default;
+  color: #000 !important;
+  width: 100%;
+  left: 0; }
 
-.grid--center {
-  text-align: center; }
+.nav-img-box {
+  margin-left: 28px;
+  height: 50px;
+  text-align: left; }
 
-.grid__cell--center {
-  display: block;
-  margin: 0 auto; }
+.nav-img {
+  margin: 8px 0;
+  padding: 0;
+  height: 34px;
+  text-align: left; }
+
+.navbar-right {
+  margin-right: 18px; }
+
+.nav-link {
+  color: #9CA2AB; }
+
+.nav-link:hover {
+  color: #F15649 !important; }
+
+.about-box {
+  width: 80%;
+  height: 200px;
+  background-color: #F15649;
+  margin-top: 200px; }
