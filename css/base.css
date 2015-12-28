@@ -1,7 +1,7 @@
 .vollkorn, .navbar-brand, .nav-link {
   font-family: 'Vollkorn', serif; }
 
-.montserrat {
+.montserrat, .about-box h4 {
   font-family: 'Montserrat', sans-serif; }
 
 body {
@@ -45,11 +45,27 @@ body {
 .nav-link {
   color: #9CA2AB; }
 
+.nav-active {
+  color: #F15649 !important;
+  cursor: default; }
+
 .nav-link:hover {
   color: #F15649 !important; }
 
 .about-box {
-  width: 80%;
-  height: 200px;
-  background-color: #F15649;
-  margin-top: 200px; }
+  width: 65%;
+  margin: 150px auto 0 auto; }
+  .about-box h4 {
+    margin-top: 30px; }
+  .about-box .link-txt {
+    color: #F15649; }
+  .about-box .social-box {
+    margin-top: 100px;
+    width: 100%;
+    min-height: 200px;
+    text-align: center; }
+  .about-box a:hover {
+    text-decoration: none; }
+  .about-box .glyph-icon {
+    margin: 10px;
+    color: #F15649; }
