@@ -1,4 +1,12 @@
-.windows-box{
+@media only screen and (min-width:$break-small) {
+	.windows-box{
+		width:50px;
+		background-color: #3df;
+		margin:100px auto;
+	}
+}
+@media only screen and (min-width:$break-medium) {
+	.windows-box{
 	margin-top:$navbar-height;
 	width:100%;
 	.day-box{
@@ -7,10 +15,11 @@
 		padding:5px 10px 3px 10px;
 		background-color: $d-white;
 		.day-txt{
-			@extend .vollkorn;
+	font-family: 'Vollkorn', serif;
 		}
 	}
 	.day-img{
 		width:100%;
+	}
 	}
 }

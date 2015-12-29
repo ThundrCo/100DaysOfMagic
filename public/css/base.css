@@ -1,4 +1,4 @@
-.vollkorn, .navbar-brand, .nav-link, .sub-box .submit, .windows-box .day-box .day-txt {
+.vollkorn, .navbar-brand, .nav-link, .sub-box .submit {
   font-family: 'Vollkorn', serif; }
 
 .montserrat, .about-box h4, .sub-box h4, .sub-box input {
@@ -95,13 +95,22 @@ body {
     color: #FCFDFD;
     background-color: #0068FC; }
 
-.windows-box {
-  margin-top: 50px;
-  width: 100%; }
-  .windows-box .day-box {
-    position: fixed;
-    margin: 50px 50px 50px 50px;
-    padding: 5px 10px 3px 10px;
-    background-color: #FCFDFD; }
-  .windows-box .day-img {
+@media only screen and (min-width: 400px) {
+  .windows-box {
+    width: 50px;
+    background-color: #3df;
+    margin: 100px auto; } }
+
+@media only screen and (min-width: 960px) {
+  .windows-box {
+    margin-top: 50px;
     width: 100%; }
+    .windows-box .day-box {
+      position: fixed;
+      margin: 50px 50px 50px 50px;
+      padding: 5px 10px 3px 10px;
+      background-color: #FCFDFD; }
+      .windows-box .day-box .day-txt {
+        font-family: 'Vollkorn', serif; }
+    .windows-box .day-img {
+      width: 100%; } }
