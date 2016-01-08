@@ -3,8 +3,9 @@
 Installation:
 1. Have Node.js installed
 2. Move into the folder in terminal: cd ~/Downloads/100DaysOfMagic
-3. Install Dependencies: npm install
-4. Run gulp: gulp
+3. Install Dependencies: npm install 
+4. Install Dependencies: bower install 
+5. Run gulp: gulp
 
 
 Updates:
