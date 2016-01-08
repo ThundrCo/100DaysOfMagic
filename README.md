@@ -1,4 +1,4 @@
-# 100DaysOfMagic
+# 100DaysOfMagic  
 
 Installation:
 1. Have Node.js installed
