@@ -57,11 +57,11 @@ body {
   color: #F15649 !important; }
 
 .num-txt {
-  font-size: 20px; }
+  font-size: 18px; }
 
 .about-box {
-  width: 65%;
-  margin: 150px auto 0 auto; }
+  width: 50%;
+  margin: 130px auto 0 auto; }
   .about-box h4 {
     margin-top: 30px; }
   .about-box .link-txt {
@@ -76,6 +76,9 @@ body {
   .about-box .glyph-icon {
     margin: 10px;
     color: #F15649; }
+  .about-box .about-txt {
+    line-height: 1.3em;
+    font-size: 18px; }
 
 .sub-box {
   width: 60%;

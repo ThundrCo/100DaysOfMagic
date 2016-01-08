@@ -1,6 +1,6 @@
 .about-box{
-	width:65%;
-	margin:150px auto 0 auto;
+	width:50%;
+	margin:130px auto 0 auto;
 	h4{
 		@extend .montserrat;
 		margin-top: 30px;
@@ -20,5 +20,9 @@
 	.glyph-icon{
 		margin:10px;
 		color:$red;
+	}
+	.about-txt{
+		line-height:1.3em;
+		font-size: 18px;
 	}
 }
