@@ -56,6 +56,9 @@ body {
 .nav-link:hover {
   color: #F15649 !important; }
 
+.num-txt {
+  font-size: 20px; }
+
 .about-box {
   width: 65%;
   margin: 150px auto 0 auto; }
