@@ -9,6 +9,7 @@ Installation:
 
 
 Updates:
+0. Update from branch: git pull origin master
 1. Make your updates in app folder
 2. Make sure you have 'gulp' running
 3. Once you are done with updates, push to github with:
