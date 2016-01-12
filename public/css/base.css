@@ -104,7 +104,6 @@ body {
 @media only screen and (min-width: 400px) {
   .windows-box {
     width: 50px;
-    background-color: #3df;
     margin: 100px auto 0 auto; } }
 
 @media only screen and (min-width: 960px) {
