@@ -9,12 +9,14 @@ Installation:
 
 
 Updates:
-1. Make your updates in app folder
-2. Make sure you have 'gulp' running
-3. Once you are done with updates, push to github with:
-4. Add commits: git add -A
-5. Add message: git commit -m "update message"
-6. Push to Github: git push origin master
-7. Push to Github Pages: git subtree push --prefix public origin gh-pages
+0. Move into the folder in terminal: 'cd ~/Downloads/100DaysOfMagic'
+1. Update from branch: 'git pull origin master'
+2. Run gulp: 'gulp'
+3. Make your updates in the code in app folder
+4. Once you are done with updates, push to github with close gulp: press control+c
+5. Add commits: git add -A
+6. Add message: git commit -m "update message"
+7. Push to Github: git push origin master
+8. Push to Github Pages: git subtree push --prefix public origin gh-pages
 
 [Link](http://pomco.github.io/100DaysOfMagic/)
