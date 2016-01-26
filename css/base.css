@@ -82,7 +82,7 @@ body {
     font-size: 18px; }
 
 .sub-box {
-  width: 60%;
+  width: 72%;
   margin: 150px auto 0 auto; }
   .sub-box h4 {
     margin-top: 30px; }
@@ -93,8 +93,8 @@ body {
     height: 40px;
     border: 1px solid #000; }
   .sub-box .submit {
+    margin-top: 31px;
     padding-top: 10px;
-    margin-top: 30px;
     color: #000;
     background-color: #FCFDFD;
     border: 1px solid #F15649; }
