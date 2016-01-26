@@ -1,8 +1,8 @@
 .vollkorn, .navbar-brand, .nav-link, .sub-box .submit {
   font-family: 'Vollkorn', serif; }
 
-.montserrat, .about-box h4, .sub-box h4, .sub-box input {
-  font-family: 'Montserrat', sans-serif; }
+.Raleway, .about-box h4, .sub-box h4, .sub-box input {
+  font-family: 'Raleway', sans-serif; }
 
 body {
   background-color: #FCFDFD; }
@@ -60,7 +60,7 @@ body {
   font-size: 18px; }
 
 .about-box {
-  width: 50%;
+  width: 46%;
   margin: 130px auto 0 auto; }
   .about-box h4 {
     margin-top: 30px; }
@@ -77,8 +77,9 @@ body {
     margin: 10px;
     color: #F15649; }
   .about-box .about-txt {
+    text-align: left;
     line-height: 1.3em;
-    font-size: 15px; }
+    font-size: 18px; }
 
 .sub-box {
   width: 60%;
@@ -121,4 +122,19 @@ body {
       .windows-box .day-box .day-txt {
         font-family: 'Vollkorn', serif; }
     .windows-box .day-img {
-      width: 100%; } }
+      width: 100%; }
+    .windows-box .days {
+      background-size: cover;
+      overflow-x: hidden; }
+      .windows-box .days .row {
+        width: 100%; }
+        .windows-box .days .row .text-desc {
+          font-family: 'Raleway', sans-serif;
+          text-align: center;
+          font-size: 16px; }
+        .windows-box .days .row .text-top {
+          padding-top: 60px;
+          padding-bottom: 620px; }
+        .windows-box .days .row .text-bot {
+          padding-top: 630px;
+          padding-bottom: 100px; } }
