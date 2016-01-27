@@ -1,5 +1,5 @@
 .sub-box{
-	width:60%;
+	width:72%;
 	margin:150px auto 0 auto;
 	h4{
 		@extend .Raleway;
@@ -9,15 +9,16 @@
 		margin-top: 30px;
 		text-align: center;
 	}
+
 	input{
 		@extend .Raleway;
 		height: 40px;
 		border:1px solid $black;		
 	}
 	.submit{
+		margin-top:31px;
 		padding-top: 10px;
 		@extend .vollkorn;
-		margin-top: 30px;
 		color:$black;
 		background-color: $d-white;
 		border:1px solid $red;
