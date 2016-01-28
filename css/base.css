@@ -5,7 +5,8 @@
   font-family: 'Raleway', sans-serif; }
 
 body {
-  background-color: #FCFDFD; }
+  background-color: #FCFDFD;
+  overflow-x: hidden; }
 
 .navbar-collapse {
   padding: 0; }
@@ -124,8 +125,7 @@ body {
     .windows-box .day-img {
       width: 100%; }
     .windows-box .days {
-      background-size: cover;
-      overflow-x: hidden; }
+      background-size: cover; }
       .windows-box .days .row {
         width: 100%; }
         .windows-box .days .row .text-desc {
@@ -133,8 +133,8 @@ body {
           text-align: center;
           font-size: 16px; }
         .windows-box .days .row .text-top {
-          padding-top: 60px;
-          padding-bottom: 620px; }
+          padding-top: 7%;
+          padding-bottom: 80%; }
         .windows-box .days .row .text-bot {
-          padding-top: 630px;
-          padding-bottom: 100px; } }
+          padding-top: 81%;
+          padding-bottom: 6%; } }
