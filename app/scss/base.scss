@@ -21,6 +21,8 @@ $large-screen-width:1600px;
 
 body{
 	background-color: $d-white;
+	
+		  overflow-x:hidden;
 }
 
 @import 'partials/_nav.scss';
