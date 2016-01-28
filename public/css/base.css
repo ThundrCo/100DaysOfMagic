@@ -134,7 +134,10 @@ body {
           font-size: 16px; }
         .windows-box .days .row .text-top {
           padding-top: 7%;
-          padding-bottom: 80%; }
+          padding-bottom: 92%; }
         .windows-box .days .row .text-bot {
           padding-top: 81%;
-          padding-bottom: 6%; } }
+          padding-bottom: 6%; }
+        .windows-box .days .row .text-cent {
+          padding-top: 4%;
+          padding-bottom: 45%; } }
