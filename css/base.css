@@ -60,7 +60,7 @@ body {
   font-size: 18px; }
 
 .about-box {
-  width: 46%;
+  width: 53%;
   margin: 130px auto 0 auto; }
   .about-box h4 {
     margin-top: 30px; }
@@ -77,7 +77,7 @@ body {
     margin: 10px;
     color: #F15649; }
   .about-box .about-txt {
-    text-align: left;
+    text-align: center;
     line-height: 1.3em;
     font-size: 18px; }
 
