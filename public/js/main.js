@@ -1,22 +1,23 @@
 $( window ).load(function() {
 	var numDays = 2;
+	var numDays = 5;
 	var positions = [];
 	var scrollTop = $(window).scrollTop();
-	for(var x =1; x<=numDays;x++){
+	for(var x = numDays; x>0;x--){
 		var top = $('#day-'+x).position().top-100;
-		changeDays(scrollTop,top,x-1);
+		changeDays(scrollTop,top,x);
 		positions.push(top);
 	}
 
 	$(window).scroll(function() {
 		scrollTop = $(window).scrollTop();
 		$.each(positions, function( index, value ) {
-			changeDays(scrollTop,value,index);
+			changeDays(scrollTop,value,numDays-index);
 		});
 	});
 	function changeDays(scrollTop,value,index){		
 		if (scrollTop>=value){
-				day = pad((index+1),3);
+				day = pad((index), 3);
 				$("#day-tracker").text('DAY '+day);
 		}
 	};
