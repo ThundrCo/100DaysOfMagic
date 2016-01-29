@@ -57,6 +57,12 @@ body {
 .nav-link:hover {
   color: #F15649 !important; }
 
+.link-txt {
+  color: #000 !important; }
+
+.link-txt:hover {
+  text-decoration: none; }
+
 .num-txt {
   font-size: 18px; }
 
