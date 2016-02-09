@@ -274,12 +274,13 @@ body {
       .windows-box .days .row .text-desc {
         font-family: 'Raleway', sans-serif;
         text-align: center;
-        font-size: 30px; }
+        font-size: 24px; }
       .windows-box .days .row .text-top {
         padding-top: 7%; }
       .windows-box .days .row .text-bot {
-        padding-top: 10%; }
+        padding-top: 350px; }
       .windows-box .days .row .text-cent {
+        margin-top: -80px;
         text-align: center;
         padding-top: 4%; }
 
@@ -312,7 +313,8 @@ body {
         .windows-box .days .row .text-top {
           padding-top: 7%; }
         .windows-box .days .row .text-bot {
-          padding-top: 81%; }
+          padding-top: 84%;
+          padding-bottom: 6%; }
         .windows-box .days .row .text-cent {
           padding-top: 4%; } }
 
@@ -343,8 +345,8 @@ body {
           padding-top: 7%;
           padding-bottom: 92%; }
         .windows-box .days .row .text-bot {
-          padding-top: 81%;
-          padding-bottom: 6%; }
+          padding-top: 92%;
+          padding-bottom: 7%; }
         .windows-box .days .row .text-cent {
           padding-top: 4%;
           padding-bottom: 45%; } }
