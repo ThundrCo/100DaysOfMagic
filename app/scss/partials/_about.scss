@@ -1,5 +1,5 @@
 .about-box{
-	width:53%;
+	width:80%;
 	margin:130px auto 0 auto;
 	h4{
 		@extend .Raleway;
@@ -18,12 +18,51 @@
 		text-decoration: none;
 	}
 	.glyph-icon{
+		margin:30px;
+		color:$red;
+		font-size: 40px;
+	}
+	.about-txt-box{
+		padding:10px;
+	}
+	.about-txt{
+		text-align: center;
+		line-height:1.3em;
+		font-size: 2.5em;
+	}
+}
+@media only screen and (min-width:$break-small) {
+	.about-box{
+	width:53%;
+	margin:130px auto 0 auto;
+	h4{
+		font-family: 'Raleway', sans-serif;
+		margin-top: 30px;
+	}
+	.link-txt{
+		color:$red;
+	}
+	.social-box{
+		margin-top: 100px;
+		width:100%;
+		min-height: 200px;
+		text-align: center;
+	}
+	a:hover{
+		text-decoration: none;
+	}
+	.glyph-icon{
 		margin:10px;
 		color:$red;
+		font-size: 20px;
+	}
+	.about-txt-box{
+		padding:0px;
 	}
 	.about-txt{
 		text-align: center;
 		line-height:1.3em;
 		font-size: 18px;
 	}
+}
 }

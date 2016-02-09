@@ -2,8 +2,9 @@
 	width:72%;
 	margin:150px auto 0 auto;
 	h4{
-		@extend .Raleway;
+		font-family: 'Raleway', sans-serif;
 		margin-top: 30px;
+		font-size: 30px;
 	}
 	.form{
 		margin-top: 30px;
@@ -11,14 +12,15 @@
 	}
 
 	input{
-		@extend .Raleway;
-		height: 40px;
+		font-family: 'Raleway', sans-serif;
+		height:60px;
 		border:1px solid $black;		
 	}
 	.submit{
 		margin-top:31px;
-		padding-top: 10px;
-		@extend .vollkorn;
+		padding: 25px 30px;
+		font-size: 30px;
+		font-family: 'Vollkorn', serif;
 		color:$black;
 		background-color: $d-white;
 		border:1px solid $red;
@@ -31,5 +33,44 @@
 	.sub-txt{
 		line-height:1.3em;
 		font-size: 15px;
+	}
+}
+@media only screen and (min-width:$break-small) {
+	.sub-box{
+		width:72%;
+		margin:150px auto 0 auto;
+		h4{
+			font-family: 'Raleway', sans-serif;
+			margin-top: 30px;
+			font-size: 22px;
+		}
+		.form{
+			margin-top: 30px;
+			text-align: center;
+		}
+
+		input{
+			font-family: 'Raleway', sans-serif;
+			height: 40px;
+			border:1px solid $black;		
+		}
+		.submit{
+			margin-top:26px;
+			padding: 10px 10px 10px 10px;
+			font-size: 20px;
+			font-family: 'Vollkorn', serif;
+			color:$black;
+			background-color: $d-white;
+			border:1px solid $red;
+		}
+		.submit:hover{
+			color:$d-white;
+			background-color: $red;
+
+		}
+		.sub-txt{
+			line-height:1.3em;
+			font-size: 15px;
+		}
 	}
 }

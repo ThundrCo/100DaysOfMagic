@@ -9,13 +9,18 @@
     <body>
     	<% include partials/_nav.ejs %>
         <div class="windows-box">
-            <div class="day-box"> 
+            <div class="day-box mobile-hidden"> 
                 <h4 id="day-tracker" class="day-txt">DAY <span class="num-txt">002</span></h4>
             </div>
             <!--copy from here-->
-            <div id="day-2" class="row days" style="background-image:url('assets/images/desktop3.jpg')">
+            <div id="day-2" class="row days" style="background-image:url('assets/images/Day1.jpg')">
                 <div class="row">
-                    <div class="col-md-6 col-md-offset-6">
+                    <div class="col-xs-6">
+                        <div class="mobile-day-box desktop-hidden">                        
+                            <h4 class="day-txt">DAY <span class="num-txt">002</span></h4>
+                        </div>
+                    </div>
+                    <div class="col-xs-6">
                         <h4 class="text-desc text-top"> NYC
                         View from the Highline
                         </h4>
@@ -24,9 +29,12 @@
             </div>
             <!--to here-->
 
-            <div id="day-1" class="row days" style="background-image:url('assets/images/Day1.jpg')">
+            <div id="day-1" class="row days" style="background-image:url('assets/images/desktop3.jpg')">
                 <div class="row">
-                    <div class="col-md-12">
+                    <div class="col-xs-12">
+                        <div class="mobile-day-box desktop-hidden">                        
+                            <h4 class="day-txt">DAY <span class="num-txt">001</span></h4>
+                        </div>
                         <h4 class="text-desc text-cent"> NYC
                         View from the Highline
                         </h4>

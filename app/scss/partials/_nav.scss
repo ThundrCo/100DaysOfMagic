@@ -2,27 +2,29 @@
 	padding:0;
 }
 .navbar{
+	top:0;
 	border-radius: 0;
 	border:none;
 	background-color: $lt-gray;
+	height:$mobile-nav-height;
 }
 .navbar-default{
 	margin-bottom:0px;
 }
 .navbar-brand{
-	@extend .vollkorn;
+	font-family: 'Vollkorn', serif;
     position: absolute;
 	cursor:default;
     text-align: center;
     margin: auto;
     width: 100%;
     left: 0;
-	font-size: 16px;
+	font-size: 26px;
 	cursor:default;
 	color:$black!important;
     width: 100%;
     left: 0;
-    top:0;
+    top:20px;
 }
 .nav-img-box{
 	margin-left:28px;
@@ -30,17 +32,20 @@
 	text-align: left;
 }
 .nav-img{
-	margin:8px 0;
+	margin:28px 0;
 	padding:0;
-	height:34px;
+	height:44px;
 	text-align: left;
 }
 .navbar-right{
 	margin-right: 18px;
 }
 .nav-link{
-	@extend .vollkorn;
+	font-family: 'Vollkorn', serif;
 	color:$gray;
+	top:20px;
+	font-size: 20px;
+
 }
 .nav-active{
 	color:$red!important;
@@ -56,5 +61,83 @@
 	text-decoration: none;
 }
 .num-txt{
-	font-size:18px;
+	font-size:34px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width:$break-medium) {
+	.navbar-collapse{
+		padding:0;
+	}
+	.navbar{
+		border-radius: 0;
+		border:none;
+		background-color: $lt-gray;
+		height:$navbar-height;
+	}
+	.navbar-default{
+		margin-bottom:0px;
+	}
+	.navbar-brand{
+		font-family: 'Vollkorn', serif;
+	    position: absolute;
+		cursor:default;
+	    text-align: center;
+	    margin: auto;
+	    width: 100%;
+	    left: 0;
+		font-size: 16px;
+		cursor:default;
+		color:$black!important;
+	    width: 100%;
+	    left: 0;
+	    top:0;
+	}
+	.nav-img-box{
+		margin-left:28px;
+		height:$navbar-height;
+		text-align: left;
+	}
+	.nav-img{
+		margin:8px 0;
+		padding:0;
+		height:34px;
+		text-align: left;
+	}
+	.navbar-right{
+		margin-right: 18px;
+	}
+	.nav-link{
+		font-family: 'Vollkorn', serif;
+		color:$gray;
+		font-size: 14px;
+		top:0;
+	}
+	.nav-active{
+		color:$red!important;
+		cursor:default;
+	}
+	.nav-link:hover{
+		color:$red!important;
+	}
+	.link-txt{
+		color:$black!important;
+	}
+	.link-txt:hover{
+		text-decoration: none;
+	}
+	.num-txt{
+		font-size:18px;
+	}
 }

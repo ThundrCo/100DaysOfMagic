@@ -5,10 +5,11 @@ $red: #F15649;
 $d-white: #FCFDFD;
 $black: #000;
 $navbar-height:50px;
+$mobile-nav-height:100px;
 
-$break-small: 400px;
+$break-small: 1000px;
 $break-large: 1800px;
-$break-medium:960px;
+$break-medium:1260px;
 $large-screen-width:1600px;
 
 
@@ -21,10 +22,27 @@ $large-screen-width:1600px;
 
 body{
 	background-color: $d-white;
-	
-		  overflow-x:hidden;
+	overflow-x:hidden;
 }
-
+.mobile-hidden{
+	display: none;
+}
+@media only screen and (min-width:$break-small) {
+	.mobile-hidden{
+		display:none;
+	}
+	.desktop-hidden{
+		display:block;
+	}
+}
+@media only screen and (min-width:$break-medium) {
+	.mobile-hidden{
+		display:block;
+	}
+	.desktop-hidden{
+		display:none;
+	}
+}
 @import 'partials/_nav.scss';
 @import 'partials/_about.scss';
 @import 'partials/_sub.scss';
