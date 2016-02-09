@@ -1,37 +1,55 @@
-.vollkorn, .navbar-brand, .nav-link, .sub-box .submit {
+.vollkorn {
   font-family: 'Vollkorn', serif; }
 
-.Raleway, .about-box h4, .sub-box h4, .sub-box input {
+.Raleway, .about-box h4 {
   font-family: 'Raleway', sans-serif; }
 
 body {
   background-color: #FCFDFD;
   overflow-x: hidden; }
 
+.mobile-hidden {
+  display: none; }
+
+@media only screen and (min-width: 1000px) {
+  .mobile-hidden {
+    display: none; }
+  .desktop-hidden {
+    display: block; } }
+
+@media only screen and (min-width: 1260px) {
+  .mobile-hidden {
+    display: block; }
+  .desktop-hidden {
+    display: none; } }
+
 .navbar-collapse {
   padding: 0; }
 
 .navbar {
+  top: 0;
   border-radius: 0;
   border: none;
-  background-color: #EEEFF1; }
+  background-color: #EEEFF1;
+  height: 100px; }
 
 .navbar-default {
   margin-bottom: 0px; }
 
 .navbar-brand {
+  font-family: 'Vollkorn', serif;
   position: absolute;
   cursor: default;
   text-align: center;
   margin: auto;
   width: 100%;
   left: 0;
-  font-size: 16px;
+  font-size: 26px;
   cursor: default;
   color: #000 !important;
   width: 100%;
   left: 0;
-  top: 0; }
+  top: 20px; }
 
 .nav-img-box {
   margin-left: 28px;
@@ -39,16 +57,19 @@ body {
   text-align: left; }
 
 .nav-img {
-  margin: 8px 0;
+  margin: 28px 0;
   padding: 0;
-  height: 34px;
+  height: 44px;
   text-align: left; }
 
 .navbar-right {
   margin-right: 18px; }
 
 .nav-link {
-  color: #9CA2AB; }
+  font-family: 'Vollkorn', serif;
+  color: #9CA2AB;
+  top: 20px;
+  font-size: 20px; }
 
 .nav-active {
   color: #F15649 !important;
@@ -64,10 +85,62 @@ body {
   text-decoration: none; }
 
 .num-txt {
-  font-size: 18px; }
+  font-size: 34px; }
+
+@media only screen and (min-width: 1260px) {
+  .navbar-collapse {
+    padding: 0; }
+  .navbar {
+    border-radius: 0;
+    border: none;
+    background-color: #EEEFF1;
+    height: 50px; }
+  .navbar-default {
+    margin-bottom: 0px; }
+  .navbar-brand {
+    font-family: 'Vollkorn', serif;
+    position: absolute;
+    cursor: default;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    left: 0;
+    font-size: 16px;
+    cursor: default;
+    color: #000 !important;
+    width: 100%;
+    left: 0;
+    top: 0; }
+  .nav-img-box {
+    margin-left: 28px;
+    height: 50px;
+    text-align: left; }
+  .nav-img {
+    margin: 8px 0;
+    padding: 0;
+    height: 34px;
+    text-align: left; }
+  .navbar-right {
+    margin-right: 18px; }
+  .nav-link {
+    font-family: 'Vollkorn', serif;
+    color: #9CA2AB;
+    font-size: 14px;
+    top: 0; }
+  .nav-active {
+    color: #F15649 !important;
+    cursor: default; }
+  .nav-link:hover {
+    color: #F15649 !important; }
+  .link-txt {
+    color: #000 !important; }
+  .link-txt:hover {
+    text-decoration: none; }
+  .num-txt {
+    font-size: 18px; } }
 
 .about-box {
-  width: 53%;
+  width: 80%;
   margin: 130px auto 0 auto; }
   .about-box h4 {
     margin-top: 30px; }
@@ -81,27 +154,62 @@ body {
   .about-box a:hover {
     text-decoration: none; }
   .about-box .glyph-icon {
-    margin: 10px;
-    color: #F15649; }
+    margin: 30px;
+    color: #F15649;
+    font-size: 40px; }
+  .about-box .about-txt-box {
+    padding: 10px; }
   .about-box .about-txt {
     text-align: center;
     line-height: 1.3em;
-    font-size: 18px; }
+    font-size: 2.5em; }
+
+@media only screen and (min-width: 1000px) {
+  .about-box {
+    width: 53%;
+    margin: 130px auto 0 auto; }
+    .about-box h4 {
+      font-family: 'Raleway', sans-serif;
+      margin-top: 30px; }
+    .about-box .link-txt {
+      color: #F15649; }
+    .about-box .social-box {
+      margin-top: 100px;
+      width: 100%;
+      min-height: 200px;
+      text-align: center; }
+    .about-box a:hover {
+      text-decoration: none; }
+    .about-box .glyph-icon {
+      margin: 10px;
+      color: #F15649;
+      font-size: 20px; }
+    .about-box .about-txt-box {
+      padding: 0px; }
+    .about-box .about-txt {
+      text-align: center;
+      line-height: 1.3em;
+      font-size: 18px; } }
 
 .sub-box {
   width: 72%;
   margin: 150px auto 0 auto; }
   .sub-box h4 {
-    margin-top: 30px; }
+    font-family: 'Raleway', sans-serif;
+    margin-top: 30px;
+    font-size: 30px; }
   .sub-box .form {
     margin-top: 30px;
     text-align: center; }
   .sub-box input {
-    height: 40px;
+    font-family: 'Raleway', sans-serif;
+    height: 60px;
     border: 1px solid #000; }
   .sub-box .submit {
     margin-top: 31px;
-    padding-top: 10px;
+    padding: 25px 30px;
+    font-size: 30px;
+    font-family: 'Vollkorn', serif;
     color: #000;
     background-color: #FCFDFD;
     border: 1px solid #F15649; }
@@ -112,12 +220,103 @@ body {
     line-height: 1.3em;
     font-size: 15px; }
 
-@media only screen and (min-width: 400px) {
-  .windows-box {
-    width: 50px;
-    margin: 100px auto 0 auto; } }
+@media only screen and (min-width: 1000px) {
+  .sub-box {
+    width: 72%;
+    margin: 150px auto 0 auto; }
+    .sub-box h4 {
+      font-family: 'Raleway', sans-serif;
+      margin-top: 30px;
+      font-size: 22px; }
+    .sub-box .form {
+      margin-top: 30px;
+      text-align: center; }
+    .sub-box input {
+      font-family: 'Raleway', sans-serif;
+      height: 40px;
+      border: 1px solid #000; }
+    .sub-box .submit {
+      margin-top: 26px;
+      padding: 10px 10px 10px 10px;
+      font-size: 20px;
+      font-family: 'Vollkorn', serif;
+      color: #000;
+      background-color: #FCFDFD;
+      border: 1px solid #F15649; }
+    .sub-box .submit:hover {
+      color: #FCFDFD;
+      background-color: #F15649; }
+    .sub-box .sub-txt {
+      line-height: 1.3em;
+      font-size: 15px; } }
 
-@media only screen and (min-width: 960px) {
+.windows-box {
+  margin-top: 100px;
+  width: 100%; }
+  .windows-box .mobile-day-box {
+    width: 125px;
+    margin: 25px 5px 5px 30px;
+    padding: 1px 2px 1px 2px;
+    background-color: #FCFDFD;
+    text-align: center; }
+    .windows-box .mobile-day-box .day-txt {
+      font-family: 'Vollkorn', serif;
+      font-size: 20px; }
+    .windows-box .mobile-day-box .num-txt {
+      font-size: 24px; }
+  .windows-box .day-img {
+    width: 100%; }
+  .windows-box .days {
+    background-size: cover;
+    height: 480px; }
+    .windows-box .days .row {
+      width: 100%; }
+      .windows-box .days .row .text-desc {
+        font-family: 'Raleway', sans-serif;
+        text-align: center;
+        font-size: 30px; }
+      .windows-box .days .row .text-top {
+        padding-top: 7%; }
+      .windows-box .days .row .text-bot {
+        padding-top: 10%; }
+      .windows-box .days .row .text-cent {
+        text-align: center;
+        padding-top: 4%; }
+
+@media only screen and (min-width: 1000px) {
+  .windows-box {
+    margin-top: 50px;
+    width: 100%; }
+    .windows-box .mobile-day-box {
+      width: 100px;
+      margin: 25px 5px 5px 38px;
+      padding: 1px 2px 1px 2px;
+      background-color: #FCFDFD;
+      text-align: center; }
+      .windows-box .mobile-day-box .day-txt {
+        font-family: 'Vollkorn', serif;
+        font-size: 16px; }
+      .windows-box .mobile-day-box .num-txt {
+        font-size: 20px; }
+    .windows-box .day-img {
+      width: 100%; }
+    .windows-box .days {
+      background-size: cover;
+      height: 580px; }
+      .windows-box .days .row {
+        width: 100%; }
+        .windows-box .days .row .text-desc {
+          font-family: 'Raleway', sans-serif;
+          text-align: center;
+          font-size: 16px; }
+        .windows-box .days .row .text-top {
+          padding-top: 7%; }
+        .windows-box .days .row .text-bot {
+          padding-top: 81%; }
+        .windows-box .days .row .text-cent {
+          padding-top: 4%; } }
+
+@media only screen and (min-width: 1260px) {
   .windows-box {
     margin-top: 50px;
     width: 100%; }
@@ -127,11 +326,13 @@ body {
       padding: 5px 10px 3px 10px;
       background-color: #FCFDFD; }
       .windows-box .day-box .day-txt {
-        font-family: 'Vollkorn', serif; }
+        font-family: 'Vollkorn', serif;
+        font-size: 15px; }
     .windows-box .day-img {
       width: 100%; }
     .windows-box .days {
-      background-size: cover; }
+      background-size: cover;
+      height: auto; }
       .windows-box .days .row {
         width: 100%; }
         .windows-box .days .row .text-desc {
