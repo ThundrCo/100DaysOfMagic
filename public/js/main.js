@@ -16,7 +16,7 @@ $( window ).load(function() {
 	});
 	function changeDays(scrollTop,value,index){		
 		if (scrollTop>=value){
-				day = pad((index), 3);
+				day = pad((index), 3 );
 				$("#day-tracker").text('DAY '+day);
 		}
 	};
