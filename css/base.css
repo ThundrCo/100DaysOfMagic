@@ -348,5 +348,7 @@ body {
           padding-top: 92%;
           padding-bottom: 7%; }
         .windows-box .days .row .text-cent {
-          padding-top: 4%;
-          padding-bottom: 50%; } }
+          padding-top: 12%;
+          padding-bottom: 44%; }
+        .windows-box .days .row .text-white {
+          color: #fff; } }
