@@ -1,5 +1,5 @@
 $( window ).load(function() {
-	var numDays = 3;
+	var numDays = 4;
 	var positions = [];
 	var scrollTop = $(window).scrollTop();
 	for(var x = numDays; x>0;x--){
