@@ -142,6 +142,9 @@ body {
 .about-box {
   width: 80%;
   margin: 130px auto 0 auto; }
+  .about-box img {
+    text-align: center;
+    border-radius: 50%; }
   .about-box h4 {
     margin-top: 30px; }
   .about-box .link-txt {
@@ -167,7 +170,7 @@ body {
 @media only screen and (min-width: 1000px) {
   .about-box {
     width: 53%;
-    margin: 130px auto 0 auto; }
+    margin: 50px auto 0 auto; }
     .about-box h4 {
       font-family: 'Raleway', sans-serif;
       margin-top: 30px; }
