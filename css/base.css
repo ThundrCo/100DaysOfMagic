@@ -175,7 +175,7 @@ body {
       font-family: 'Raleway', sans-serif;
       margin-top: 30px; }
     .about-box .link-txt {
-      color: #F15649; }
+      color: #F15649 !important; }
     .about-box .social-box {
       margin-top: 100px;
       width: 100%;
