@@ -1,6 +1,10 @@
 .about-box{
 	width:80%;
 	margin:130px auto 0 auto;
+	img{
+		text-align:center;
+		border-radius: 50%;
+	}
 	h4{
 		@extend .Raleway;
 		margin-top: 30px;
@@ -34,7 +38,7 @@
 @media only screen and (min-width:$break-small) {
 	.about-box{
 	width:53%;
-	margin:130px auto 0 auto;
+	margin:50px auto 0 auto;
 	h4{
 		font-family: 'Raleway', sans-serif;
 		margin-top: 30px;
