@@ -15,6 +15,21 @@
 			font-size:24px;
 		}
 	}
+	.mobile-city-box{
+		display: inline-block;
+		margin: 25px 5px 8px 30px;
+		padding:5px 18px 5px 18px;
+		background-color: $d-white;
+		white-space: nowrap;
+		text-align: left;
+		.city-txt{
+			font-family: 'Vollkorn', serif;
+			font-size: 20px;
+		}
+		.num-txt{
+			font-size:24px;
+		}
+	}
 	.day-img{
 		width:100%;
 	}
@@ -23,7 +38,7 @@
 		  -moz-background-size: cover;
 		  -o-background-size: cover;
 		  background-size: cover;
-		  height:480px;
+		  height:500px;
 		  .row{
 		  	width:100%;
 		  	.text-desc{
@@ -109,6 +124,16 @@
 				font-size: 15px;
 			}
 		}
+		.city-box{
+			position:fixed;
+			margin: 120px 50px 50px 28px;
+			padding:5px 10px 3px 10px;
+			background-color: $d-white;
+			.city-txt{
+				font-family: 'Vollkorn', serif;
+				font-size: 15px;
+			}
+		}
 		.day-img{
 			width:100%;
 		}
@@ -116,10 +141,16 @@
 			-webkit-background-size: cover;
 			  -moz-background-size: cover;
 			  -o-background-size: cover;
-			  background-size: cover;
-			  height:auto;
+			background-size: cover;
+			height:auto;		
 			  .row{
 			  	width:100%;
+			  	.mobile-city-box{
+			  		display:none;
+			  	}
+			  	.pad-img{
+			  		padding-bottom: 51%;
+			  	}
 			  	.text-desc{
 			  		font-family: 'Raleway', sans-serif;	
 			  		text-align: center;
