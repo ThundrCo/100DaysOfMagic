@@ -2,7 +2,7 @@ $( window ).load(function() {
 	var numDays = 5;
 	var positions = [];
 	var scrollTop = $(window).scrollTop();
-	var cities = ["SEATTLE","LA","SF","CHICAGO","HOUSTON"];
+	var cities = ["NEW YORK CITY","STRASBOURG, FRANCE","DOWNTOWN LOS ANGELES","NEW YORK CITY","SEATTLE, WASHINGTON"];
 	for(var x = numDays; x>0;x--){
 		var top = $('#day-'+x).position().top-100;
 		changeDays(scrollTop,top,x);
