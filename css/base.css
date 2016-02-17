@@ -267,11 +267,23 @@ body {
       font-size: 20px; }
     .windows-box .mobile-day-box .num-txt {
       font-size: 24px; }
+  .windows-box .mobile-city-box {
+    display: inline-block;
+    margin: 25px 5px 8px 30px;
+    padding: 5px 18px 5px 18px;
+    background-color: #FCFDFD;
+    white-space: nowrap;
+    text-align: left; }
+    .windows-box .mobile-city-box .city-txt {
+      font-family: 'Vollkorn', serif;
+      font-size: 20px; }
+    .windows-box .mobile-city-box .num-txt {
+      font-size: 24px; }
   .windows-box .day-img {
     width: 100%; }
   .windows-box .days {
     background-size: cover;
-    height: 480px; }
+    height: 500px; }
     .windows-box .days .row {
       width: 100%; }
       .windows-box .days .row .text-desc {
@@ -333,6 +345,14 @@ body {
       .windows-box .day-box .day-txt {
         font-family: 'Vollkorn', serif;
         font-size: 15px; }
+    .windows-box .city-box {
+      position: fixed;
+      margin: 120px 50px 50px 28px;
+      padding: 5px 10px 3px 10px;
+      background-color: #FCFDFD; }
+      .windows-box .city-box .city-txt {
+        font-family: 'Vollkorn', serif;
+        font-size: 15px; }
     .windows-box .day-img {
       width: 100%; }
     .windows-box .days {
@@ -340,6 +360,10 @@ body {
       height: auto; }
       .windows-box .days .row {
         width: 100%; }
+        .windows-box .days .row .mobile-city-box {
+          display: none; }
+        .windows-box .days .row .pad-img {
+          padding-bottom: 51%; }
         .windows-box .days .row .text-desc {
           font-family: 'Raleway', sans-serif;
           text-align: center;
