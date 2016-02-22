@@ -1,9 +1,9 @@
 $( window ).load(function() {
-	var numDays = 6;
+	var numDays = 7;
 	var positions = [];
 	var scrollTop = $(window).scrollTop();
 	var cities = ["NEW YORK CITY","STRASBOURG, FRANCE","DOWNTOWN LOS ANGELES",
-	"NEW YORK CITY","SEATTLE, WASHINGTON","SEATTLE, WASHINGTON"
+	"NEW YORK CITY","SEATTLE, WASHINGTON","SEATTLE, WASHINGTON", "DOWNTOWN SEATTLE"
 	];
 	
 	for(var x = numDays; x>0;x--){
