@@ -1,3 +1,33 @@
+div.comparison { 
+	width: 77.2vw;
+	height: 40vw;
+	max-width: 963px;
+	max-height: 500px;
+	overflow: hidden; 
+}
+div.comparison figure { 
+	background-image: url(photoshop-face-before.jpg);
+	background-size: cover;
+	font-size: 0;
+	width: 100%;
+	height: 100%;
+	margin: 0; 
+}
+div.comparison figure > img {
+	position: relative;
+	width: 100%;
+}
+div.comparison figure div { 
+	background-image: url(photoshop-face-after.jpg);
+	background-size: cover;
+	position: absolute;
+	width: 50%; 
+	box-shadow: 0 5px 10px -2px rgba(0,0,0,0.3);
+	overflow: hidden;
+	bottom: 0; height: 100%; 
+}
+
+
 .windows-box{
 	margin-top:$mobile-nav-height;
 	width:100%;
