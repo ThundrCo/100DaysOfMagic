@@ -1,10 +1,11 @@
 $( window ).load(function() {
-	var numDays = 10;
+	var numDays = 12;
 	var positions = [];
 	var scrollTop = $(window).scrollTop();
 	var cities = ["NEW YORK CITY","STRASBOURG, FRANCE","DOWNTOWN LOS ANGELES",
 	"NEW YORK CITY","SEATTLE, WASHINGTON","SEATTLE, WASHINGTON", "DOWNTOWN SEATTLE", 
-	"GRANADA, SPAIN", "GRANADA, SPAIN", "GRANADA, SPAIN"
+	"GRANADA, SPAIN", "GRANADA, SPAIN", "GRANADA, SPAIN", "STRASBOURG, FRANCE",
+	"STRASBOURG, FRANCE"
 	];
 	
 	for(var x = numDays; x>0;x--){
