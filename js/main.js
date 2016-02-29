@@ -5,8 +5,7 @@ $( window ).load(function() {
 	var cities = ["NEW YORK CITY","STRASBOURG, FRANCE","DOWNTOWN LOS ANGELES",
 	"NEW YORK CITY","SEATTLE, WASHINGTON","SEATTLE, WASHINGTON", "DOWNTOWN SEATTLE", 
 	"GRANADA, SPAIN", "GRANADA, SPAIN", "GRANADA, SPAIN", "STRASBOURG, FRANCE",
-	"STRASBOURG, FRANCE" "FEZ, MOROCCO"
-	];
+	"STRASBOURG, FRANCE", "FEZ, MOROCCO"];
 	
 	for(var x = numDays; x>0;x--){
 		var top = $('#day-'+x).position().top-100;
