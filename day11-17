@@ -1,0 +1,105 @@
+            
+            
+            , "STRASBOURG, FRANCE",
+    "STRASBOURG, FRANCE", "FEZ, MOROCCO", "STRASBOURG, FRANCE", 
+    "TSIM SHA TSUI, HONG KONG", "MACAU", "NEW YORK CITY"
+
+
+
+            <div id="day-17" class="row days" style="background-image:url('assets/images/day17.jpg')">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="mobile-day-box desktop-hidden">              
+                            <h4 class="day-txt">DAY <span class="num-txt">017</span></h4>
+                        </div>
+                        <div class="mobile-city-box desktop-hidden">              
+                            <h4 class="city-txt">NEW YORK CITY</h4>
+                        </div>
+                        <div class="pad-img"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="day-16" class="row days" style="background-image:url('assets/images/day16.jpg')">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="mobile-day-box desktop-hidden">              
+                            <h4 class="day-txt">DAY <span class="num-txt">016</span></h4>
+                        </div>
+                        <div class="mobile-city-box desktop-hidden">              
+                            <h4 class="city-txt">MACAU</h4>
+                        </div>
+                        <div class="pad-img"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="day-15" class="row days" style="background-image:url('assets/images/day15.jpg')">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="mobile-day-box desktop-hidden">              
+                            <h4 class="day-txt">DAY <span class="num-txt">015</span></h4>
+                        </div>
+                        <div class="mobile-city-box desktop-hidden">              
+                            <h4 class="city-txt">TSIM SHA TSUI, HONG KONG</h4>
+                        </div>
+                        <div class="pad-img"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="day-14" class="row days" style="background-image:url('assets/images/day14.jpg')">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="mobile-day-box desktop-hidden">              
+                            <h4 class="day-txt">DAY <span class="num-txt">014</span></h4>
+                        </div>
+                        <div class="mobile-city-box desktop-hidden">              
+                            <h4 class="city-txt">STRASBOURG, FRANCE</h4>
+                        </div>
+                        <div class="pad-img"></div>
+                    </div>
+                </div>
+            </div>
+
+             <div id="day-13" class="row days" style="background-image:url('assets/images/day13.jpg')">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="mobile-day-box desktop-hidden">              
+                            <h4 class="day-txt">DAY <span class="num-txt">013</span></h4>
+                        </div>
+                        <div class="mobile-city-box desktop-hidden">              
+                            <h4 class="city-txt">FEZ, MOROCCO</h4>
+                        </div>
+                        <div class="pad-img"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="day-12" class="row days" style="background-image:url('assets/images/day12.jpg')">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="mobile-day-box desktop-hidden">              
+                            <h4 class="day-txt">DAY <span class="num-txt">012</span></h4>
+                        </div>
+                        <div class="mobile-city-box desktop-hidden">              
+                            <h4 class="city-txt">STRASBOURG, FRANCE</h4>
+                        </div>
+                        <div class="pad-img"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="day-11" class="row days" style="background-image:url('assets/images/day11.jpg')">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="mobile-day-box desktop-hidden">              
+                            <h4 class="day-txt">DAY <span class="num-txt">011</span></h4>
+                        </div>
+                        <div class="mobile-city-box desktop-hidden">              
+                            <h4 class="city-txt">STRASBOURG, FRANCE</h4>
+                        </div>
+                        <div class="pad-img"></div>
+                    </div>
+                </div>
+            </div>
