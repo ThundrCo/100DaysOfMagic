@@ -1,12 +1,12 @@
 $( window ).load(function() {
-	var numDays = 20;
+	var numDays = 21;
 	var positions = [];
 	var scrollTop = $(window).scrollTop();
 	var cities = ["NEW YORK CITY","STRASBOURG, FRANCE","DOWNTOWN LOS ANGELES",
 	"NEW YORK CITY","SEATTLE, WASHINGTON","SEATTLE, WASHINGTON", "DOWNTOWN SEATTLE", 
 	"GRANADA, SPAIN", "GRANADA, SPAIN", "GRANADA, SPAIN", "MACAU", "STRASBOURG, FRANCE",
 	"HONG KONG", "PARIS, FRANCE", "NEW YORK CITY", "STRASBOURG, FRANCE", "MACAU", 
-	"BARCELONA, SPAIN", "IBIZA, SPAIN", "BARCELONA, SPAIN";
+	"BARCELONA, SPAIN", "IBIZA, SPAIN", "BARCELONA, SPAIN", "FEZ, MOROCCO";
 	
 	for(var x = numDays; x>0;x--){
 		var top = $('#day-'+x).position().top-100;
