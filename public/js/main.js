@@ -1,5 +1,5 @@
 $( window ).load(function() {
-	var numDays = 24;
+	var numDays = 25;
 	var positions = [];
 	var scrollTop = $(window).scrollTop();
 	var cities = ["NEW YORK CITY","STRASBOURG, FRANCE","DOWNTOWN LOS ANGELES",
@@ -7,7 +7,7 @@ $( window ).load(function() {
 	"GRANADA, SPAIN", "GRANADA, SPAIN", "GRANADA, SPAIN", "MACAU", "STRASBOURG, FRANCE",
 	"HONG KONG", "PARIS, FRANCE", "NEW YORK CITY", "STRASBOURG, FRANCE", "MACAU", 
 	"BARCELONA, SPAIN", "IBIZA, SPAIN", "BARCELONA, SPAIN", "FEZ, MOROCCO", 
-	"PARIS, FRANCE", "TAIPEI, TAIWAN", "STRASBOURG, FRANCE"];
+	"PARIS, FRANCE", "TAIPEI, TAIWAN", "STRASBOURG, FRANCE", "MADRID, SPAIN"];
 	
 	for(var x = numDays; x>0;x--){
 		var top = $('#day-'+x).position().top-100;
