@@ -8,7 +8,7 @@ $( window ).load(function() {
 	"HONG KONG", "PARIS, FRANCE", "NEW YORK CITY", "STRASBOURG, FRANCE", "MACAU", 
 	"BARCELONA, SPAIN", "IBIZA, SPAIN", "BARCELONA, SPAIN", "FEZ, MOROCCO", 
 	"PARIS, FRANCE", "TAIPEI, TAIWAN", "STRASBOURG, FRANCE", "MADRID, SPAIN", 
-	"GALLE, SRI LANKA", "KRABI, THAILAND"];
+	"GALLE, SRI LANKA", "PHUKET, THAILAND"];
 	
 	for(var x = numDays; x>0;x--){
 		var top = $('#day-'+x).position().top-100;
