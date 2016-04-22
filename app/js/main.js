@@ -9,7 +9,7 @@ $( window ).load(function() {
 	"BARCELONA, SPAIN", "IBIZA, SPAIN", "BARCELONA, SPAIN", "FEZ, MOROCCO", 
 	"PARIS, FRANCE", "TAIPEI, TAIWAN", "STRASBOURG, FRANCE", "MADRID, SPAIN", 
 	"GALLE, SRI LANKA", "PHUKET, THAILAND", "BARCELONA, SPAIN", "XINBEI, TAIWAN", 
-	"MACAU", "BERLIN, GERMANY"];
+	"MACAU", "BERLIN, GERMANY", "SAHARA, MOROCCO"];
 	
 	for(var x = numDays; x>0;x--){
 		var top = $('#day-'+x).position().top-100;
