@@ -1,5 +1,5 @@
 $( window ).load(function() {
-	var numDays = 035;
+	var numDays = 036;
 	var positions = [];
 	var scrollTop = $(window).scrollTop();
 	var cities = ["NEW YORK CITY","STRASBOURG, FRANCE","DOWNTOWN LOS ANGELES",
@@ -10,7 +10,7 @@ $( window ).load(function() {
 	"PARIS, FRANCE", "TAIPEI, TAIWAN", "STRASBOURG, FRANCE", "MADRID, SPAIN", 
 	"GALLE, SRI LANKA", "PHUKET, THAILAND", "BARCELONA, SPAIN", "XINBEI, TAIWAN", 
 	"MACAU", "BERLIN, GERMANY", "SAHARA, MOROCCO", "MARRAKECH, MOROCCO",
-	"HATTON, SRI LANKA", "FORMENTERA, SPAIN"
+	"HATTON, SRI LANKA", "FORMENTERA, SPAIN", "LAGUNA BEACH, CALIFORNIA"
 	];
 	
 	for(var x = numDays; x>0;x--){
