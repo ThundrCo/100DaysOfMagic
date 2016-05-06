@@ -256,6 +256,20 @@ body {
 .windows-box {
   margin-top: 100px;
   width: 100%; }
+  .windows-box #day-description {
+    width: 250px;
+    margin-top: 10px;
+    font-family: 'Raleway', sans-serif;
+    display: none; }
+  .windows-box .day-link-wrapper {
+    margin: 10px 0px; }
+  .windows-box #day-link {
+    cursor: pointer;
+    color: black;
+    padding-bottom: 10px;
+    font-family: 'Raleway', sans-serif; }
+  .windows-box .city-box {
+    z-index: 2; }
   .windows-box .mobile-day-box {
     width: 125px;
     margin: 25px 5px 5px 30px;
@@ -283,7 +297,8 @@ body {
     width: 100%; }
   .windows-box .days {
     background-size: cover;
-    height: 500px; }
+    height: 500px;
+    margin: 38px 34px; }
     .windows-box .days .row {
       width: 100%; }
       .windows-box .days .row .text-desc {
