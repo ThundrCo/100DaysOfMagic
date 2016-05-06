@@ -1,6 +1,24 @@
 .windows-box{
 	margin-top:$mobile-nav-height;
 	width:100%;
+  #day-description {
+    width: 250px;
+    margin-top: 10px;
+    font-family: 'Raleway', sans-serif;
+    display: none;
+  }
+  .day-link-wrapper {
+    margin: 10px 0px;
+  }
+  #day-link {
+    cursor: pointer;
+    color: black;
+    padding-bottom: 10px;
+    font-family: 'Raleway', sans-serif;
+  }
+  .city-box {
+    z-index: 2;
+  }
 	.mobile-day-box{
 		width:125px;
 		margin: 25px 5px 5px 30px;
@@ -39,10 +57,11 @@
 		  -o-background-size: cover;
 		  background-size: cover;
 		  height:500px;
+      margin: 38px 34px;
 		  .row{
 		  	width:100%;
 		  	.text-desc{
-		  		font-family: 'Raleway', sans-serif;	
+		  		font-family: 'Raleway', sans-serif;
 		  		text-align: center;
 		  		font-size:24px;
 		  	}
@@ -91,7 +110,7 @@
 			  .row{
 			  	width:100%;
 			  	.text-desc{
-			  		font-family: 'Raleway', sans-serif;	
+			  		font-family: 'Raleway', sans-serif;
 			  		text-align: center;
 			  		font-size:16px;
 			  	}
@@ -142,7 +161,7 @@
 			  -moz-background-size: cover;
 			  -o-background-size: cover;
 			background-size: cover;
-			height:auto;		
+			height:auto;
 			  .row{
 			  	width:100%;
 			  	.mobile-city-box{
@@ -152,7 +171,7 @@
 			  		padding-bottom: 51%;
 			  	}
 			  	.text-desc{
-			  		font-family: 'Raleway', sans-serif;	
+			  		font-family: 'Raleway', sans-serif;
 			  		text-align: center;
 			  		font-size:16px;
 			  	}
