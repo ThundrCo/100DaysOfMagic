@@ -1,5 +1,5 @@
 $( window ).load(function() {
-	var numDays = 36;
+	var numDays = 37;
 	var positions = [];
 	var scrollTop = $(window).scrollTop();
 	var cities = ["NEW YORK CITY","STRASBOURG, FRANCE","DOWNTOWN LOS ANGELES",
@@ -10,11 +10,14 @@ $( window ).load(function() {
 	"PARIS, FRANCE", "TAIPEI, TAIWAN", "STRASBOURG, FRANCE", "MADRID, SPAIN",
 	"GALLE, SRI LANKA", "PHUKET, THAILAND", "BARCELONA, SPAIN", "XINBEI, TAIWAN",
 	"MACAU", "BERLIN, GERMANY", "SAHARA, MOROCCO", "MARRAKECH, MOROCCO",
-	"HATTON, SRI LANKA", "FORMENTERA, SPAIN", "LAGUNA BEACH, CALIFORNIA"
+	"HATTON, SRI LANKA", "FORMENTERA, SPAIN", "LAGUNA BEACH, CALIFORNIA",
+  "KOREATOWN, LOS ANGELES"
 	];
 
   var descriptions =
-  ["Everyday for 100 days, I will document photographs of windows that I've passed by during my travels and illustrate the stories of lives living within through the lens of my imagination. All photographs are originals taken by me during my travels.",
+  ["Home away from home. Not really, but yes Koreatown feed me well during my 5 years in SoCal.",
+
+  "Everyday for 100 days, I will document photographs of windows that I've passed by during my travels and illustrate the stories of lives living within through the lens of my imagination. All photographs are originals taken by me during my travels.",
 
   "Photo taken in June2014 during my post college graduation backpacking trip around Europe. Across from the river I took this photo and thought to myself \"What a good life we have here.\"",
 
