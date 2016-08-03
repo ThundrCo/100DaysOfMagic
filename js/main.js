@@ -15,9 +15,9 @@ $( window ).load(function() {
 	];
 
   var descriptions =
-  ["Home away from home. Not really, but yes Koreatown feed me well during my 5 years in SoCal.",
+  [
 
-  "Everyday for 100 days, I will document photographs of windows that I've passed by during my travels and illustrate the stories of lives living within through the lens of my imagination. All photographs are originals taken by me during my travels.",
+  "Up to 100days, I will document photographs of windows that I've passed by during my travels and illustrate the stories of lives living within through the lens of my imagination. All photographs are originals taken by me during my travels.",
 
   "Photo taken in June2014 during my post college graduation backpacking trip around Europe. Across from the river I took this photo and thought to myself \"What a good life we have here.\"",
 
@@ -87,7 +87,9 @@ $( window ).load(function() {
 
   "I took this photo of the old man walking around his rooftop and thought Formentera would be a good place to retire. Quiet but just a boat ride away from Ibiza's party scene. That's me in the black wetsuit trying to get in on that retirement plan. ",
 
-  "While you're looking out at the waves, I'm looking at you wishing I could be part of that world."
+  "While you're looking out at the waves, I'm looking at you wishing I could be part of that world.", 
+
+  "Home away from home. Koreatown fed me well during my 5 years in SoCal."
   ];
 
 	for(var x = numDays; x>0;x--){
